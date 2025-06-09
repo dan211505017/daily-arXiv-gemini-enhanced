@@ -19,7 +19,7 @@ PREVIOUS_DAY_FILES=("data/${yesterday}_unique.jsonl" "data/${day_before_yesterda
 
 # --- 2. 爬取和去重 (保持不变) ---
 echo "--- Step 1: Crawling and Deduplicating Today's Data ---"
-(cd daily_cosmetic_tech && scrapy crawl cosmetic_tech -o ../${RAW_JSONL_FILE})
+(cd daily_arxiv && scrapy crawl cosmetic_tech -o ../${RAW_JSONL_FILE})
 python deduplicate.py ${RAW_JSONL_FILE} -o ${UNIQUE_JSONL_FILE}
 echo "✅ Crawling and deduplication complete for today."
 
