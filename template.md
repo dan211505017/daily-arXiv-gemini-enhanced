@@ -19,4 +19,6 @@
 * -> sercret: GOOGLE_API_KEY:your api
 
 ---
-google免费版api每分钟限制15次请求,可在ai/eanhance.py添加time.sleep()
+* google免费版api每分钟限制15次请求,已在ai/eanhance.py添加time.sleep()
+
+* 若无更新,请查看https://arxiv.org/list/yourtarget/是否更新
