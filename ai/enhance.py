@@ -4,7 +4,7 @@ import sys
 
 import dotenv
 import argparse
-
+import time
 import langchain_core.exceptions
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import (
@@ -91,6 +91,7 @@ def main():
             f.write(json.dumps(d) + "\n")
 
         print(f"Finished {idx+1}/{len(data)}", file=sys.stderr)
+        time.sleep(3)
 
 if __name__ == "__main__":
     main()
