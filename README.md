@@ -20,3 +20,6 @@
 * -> variables：CATEGORIES:q-bio.QM, q-bio.GN;EMAIL;LANGUAGE:Chinese;MODEL_NAME:gemini-2.0-flash;NAME:
 
 * -> sercret: GOOGLE_API_KEY:your api
+
+---
+google免费版api每分钟限制15次请求,可在ai/eanhance.py添加time.sleep()
