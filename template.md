@@ -12,7 +12,7 @@
 
 ---
 适用于google ai (使用openai只需使用原仓库dw-dengwei/daily-arXiv-ai-enhanced)
-* setting -> secret adn variabe
+* setting -> secret and variables
   
 * -> variables：CATEGORIES:q-bio.QM, q-bio.GN;EMAIL;LANGUAGE:Chinese;MODEL_NAME:gemini-2.0-flash;NAME:
 
