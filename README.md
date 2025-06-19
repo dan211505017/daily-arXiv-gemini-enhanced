@@ -8,6 +8,8 @@
 
 ## 报告列表
 
+- **2025-06-20**  👉  [点击查看本日报告](data/2025-06-20.md)
+
 - **2025-06-19**  👉  [点击查看本日报告](data/2025-06-19.md)
 
 - **2025-06-18**  👉  [点击查看本日报告](data/2025-06-18.md)
@@ -27,7 +29,7 @@
 
 ---
 适用于google ai (使用openai只需使用原仓库dw-dengwei/daily-arXiv-ai-enhanced)
-* setting -> secret adn variabe
+* setting -> secret and variables
   
 * -> variables：CATEGORIES:q-bio.QM, q-bio.GN;EMAIL;LANGUAGE:Chinese;MODEL_NAME:gemini-2.0-flash;NAME:
 
